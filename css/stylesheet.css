@@ -1,0 +1,209 @@
+html, body {
+	width: 100%;
+	margin: 0;
+}
+body {
+	font-size: 1.125em;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	background-color: white;
+	text-align: justify;
+	line-height: 1.6;
+}
+
+
+header {
+	background-image: url("../images/principal.jpg");
+	padding: 5em;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	letter-spacing: 0.4375em;
+	max-width: 100%;
+}
+
+
+
+#title { font-size: 6.875em;
+	       color: white;
+	       text-align: center;
+	       font-family: 'Montserrat', sans-serif;
+	       font-weight: bold;
+}
+
+h1.first, h1.second {
+	font-size: 1.5em;
+	font-weight: bold;
+	}
+
+li {
+	padding: 5px;
+	display: inline;
+	float: center;
+	color: white;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+ li a {
+	float: center;
+	position: relative;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1em;
+	transition: .5s; 
+}
+
+ nav ul {
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
+	font-size: 1.25em;
+	letter-spacing: 1px;
+	text-align: center;
+	background-color: black;
+	display: block;
+	color: white;
+
+}
+
+nav a:active {
+	background-color: #4CAF50;
+	color: white;
+	cursor: default;
+}
+
+li a:hover {
+	background-color: white;
+	color: black;
+}
+
+section {
+    padding: 1em;
+    overflow: hidden;
+}
+
+.art1 {
+    float: left;
+    max-width: 40%;
+    margin: 0;
+    padding-left: 6em;
+}
+
+.art2 {
+    float: right;
+    max-width: 40%;
+    margin: 0;
+    padding-right: 6em;
+ }
+
+ .art1, .art2 {
+ 	padding-top: 2em;
+ }
+
+footer {
+	padding: 1.5em 2em;
+	color: white;
+	background-color: black;
+}
+
+@media screen and (max-width:800px) {
+
+	body {
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+
+header {
+	padding: 4.3em;
+	background-size: 80%;
+	letter-spacing: 0.42em;
+	width: 80%;
+}
+
+#title { font-size: 6.2em;
+}
+
+h1.first, h1.second {
+	font-size: 1.2em;
+}
+
+li {
+	padding: 4.2px;
+}
+
+ li a {
+	padding: 12px 14px;
+	font-size: 0.52em;
+}
+
+section {
+    padding: 0.52em;
+    max-width: 30%
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+ .art1, .art2 {
+ 	padding-top: 1.2em;
+ }
+
+footer {
+	padding: 1.2em 1.7em;
+}
+
+}
+
+
+@media screen and (max-width:500px) {
+
+	body {
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+header {
+	padding: 4em;
+	background-size: 50%;
+	letter-spacing: 0.4em;
+	width: 50%;
+}
+
+#title { font-size: 5em;
+}
+
+h1.first, h1.second {
+	font-size: 1em;
+}
+
+li {
+	padding: 3.5px;
+}
+
+ li a {
+	padding: 10px 12px;
+	font-size: 0.4em;
+}
+
+section {
+    padding: 0.4em;
+    max-width: 20%
+    padding-left: 4em;
+    padding-right: 4em;
+}
+ .art1, .art2 {
+ 	padding-top: 1em;
+ }
+
+footer {
+	padding: 1em 1.5em;
+}
+
+}
+
